@@ -1,0 +1,7 @@
+# nginx configuration
+
+autoindex off;
+
+location / {
+  rewrite ^(.*)$ /index.php;
+}
