@@ -10,8 +10,8 @@ SimpleMVC is a straightforward PHP implementation of the MVC pattern. It has no 
 - Simply copy and paste the content of the ZIP file to your project root directory.
 - Run composer update to generate the needed PSR-4 preloading files.
 
-## 3. Setup your Webserver (optional)
-In the zip file there is a .htaccess file included. It redirects all requests to the index.php file. If you don't use Apache you will need to make these changes manually.
+## 3. Setup your Webserver
+In the root of each release there are 3 config files. One for IIS (web.config), Apache (.htaccess) and nginx (nginx-redirector.txt). Please use the correct file based on your setup.
 
 ## 4. Let's go!
 Experiment with the default setup or check the docs for more information. Happy coding!
