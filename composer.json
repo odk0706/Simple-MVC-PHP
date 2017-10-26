@@ -1,0 +1,29 @@
+{
+    "name": "Ottodeklerk/SimpleMVC",
+    "description": "SimpleMVC MVC framework",
+    "type": "project",
+    "minimum-stability": "RC",
+    "authors": [
+        {
+            "name": "Otto de Klerk",
+            "email": "contact@okict.com"
+        }
+    ],
+    "autoload" : {
+        "classmap":[
+
+            "./mvcsystem"
+        ],
+
+        "psr-4":{
+            "controller\\" : "./controller",
+            "mvcsystem\\" : "./mvcsystem",
+            "\\" :"./"
+        }
+    },
+
+    "require": {
+        "components/jquery": "^3.1",
+        "twbs/bootstrap": "4.0.0-alpha.6"
+    }
+}
